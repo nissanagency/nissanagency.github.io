@@ -1,12 +1,123 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>کانون تبلیغاتی</title>
+
+    <!-- فونت وزیر -->
+    <link href="https://cdn.jsdelivr.net/npm/vazirmatn@33.0.2/Vazirmatn-font-face.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            background: linear-gradient(#e9f1ff, #ffffff);
+            color: #0f1b33;
+        }
+
+        header {
+            background: #0f1b33;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 22px;
+            margin-top: 12px;
+            opacity: 0.9;
+        }
+
+        .winter-effect {
+            background: url('https://i.postimg.cc/yx4v4JQH/snow.gif') repeat;
+            padding: 40px 0;
+        }
+
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #0f1b33;
+        }
+
+        .service-box {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 700px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.08);
+            border-right: 6px solid #0f1b33;
+        }
+
+        .motion-text {
+            font-size: 36px;
+            text-align: center;
+            padding: 30px 0;
+            animation: fade 3s infinite alternate;
+            font-weight: bold;
+            color: #0f1b33;
+        }
+
+        @keyframes fade {
+            from { opacity: 0.3; }
+            to { opacity: 1; }
+        }
+
+        footer {
+            background: #0f1b33;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 7px 0;
+            font-size: 18px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>سلام! سایت شما با موفقیت اجرا شد 🎉</h1>
-    <p>اگر این متن را می‌بینی یعنی همه چیز درست است.</p>
+
+    <!-- هدر -->
+    <header class="winter-effect">
+        <h1>ایده. تحقیقات. اجرا</h1>
+        <p>همراه شما در مسیر حرفه‌ای تبلیغات</p>
+    </header>
+
+    <!-- متن موشن -->
+    <div class="motion-text">صفر تا صد تبلیغات شما</div>
+
+    <!-- خدمات -->
+    <section class="services">
+        <h2>خدمات ما</h2>
+
+        <div class="service-box">بیلبورد و تبلیغات محیطی حرفه‌ای</div>
+        <div class="service-box">هدایای سازمانی خلاقانه و سفارشی</div>
+        <div class="service-box">سیستم‌سازی در سازمان‌ها و مشاوره توسعه</div>
+        <div class="service-box">طراحی و چاپ با بالاترین کیفیت</div>
+    </section>
+
+    <!-- تماس با ما -->
+    <footer>
+        <p><strong>تماس با ما:</strong></p>
+        <p>📞 09370210010</p>
+        <p>📍 کرمان - برج اول - طبقه ۹ - واحد ۷</p>
+        <p>تمام حقوق محفوظ است.</p>
+    </footer>
+
 </body>
 </html>
-
